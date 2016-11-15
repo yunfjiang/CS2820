@@ -2,19 +2,19 @@
 /**
  * 
  * @author Heather Kemp
- * the Master/Visualizer.java class is a mock version of the Visualizer.java object, created simply to test the Master's ability to
+ * the MockVisualizer.java class is a mock version of the Visualizer.java object, created simply to test the Master's ability to
  * cycle through events.
  * It only implements the methods required by the Event interface.
  *
  */
 
-public class Visualizer implements Event{
+public class MockVisualizer implements Event{
 	
 	/**
 	 * Constructor initializes nothing, as everything is handled in the mock methods.
 	 */
 	
-	public Visualizer(){
+	public MockVisualizer(){
 		
 	}
 

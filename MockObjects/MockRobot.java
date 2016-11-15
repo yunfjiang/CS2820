@@ -59,7 +59,7 @@ public class MockRobot implements Event {
     
     public Event getEvent(){
     if(myEvents.isEmpty())
-        return (Event) new Robot(1,1,1);
+        return (Event) new MockRobot(1,1,1);
     else
         return myEvents.remove();   
     

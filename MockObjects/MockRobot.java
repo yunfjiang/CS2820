@@ -3,13 +3,13 @@ import java.util.*;
 /**
  * 
  * @author Heather Kemp
- * the Master/Robot.java class is a mock version of the Robot.java object, created simply to test the Master's ability to
+ * the MockRobot.java class is a mock version of the Robot.java object, created simply to test the Master's ability to
  * cycle through events.
  * It only implements the methods required by the Event interface and one simple move method.
  *
  */
 
-public class Robot implements Event {
+public class MockRobot implements Event {
 
     private int myID;
     private int myX;
@@ -23,7 +23,7 @@ public class Robot implements Event {
      * It saves these instance fields as the above variables for future use.
 	 */
     
-    public Robot(int x, int y, int ID){
+    public MockRobot(int x, int y, int ID){
         myX = x;
         myY = y;
         myMovements = new ArrayList<int[]>();

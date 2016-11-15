@@ -2,19 +2,19 @@
 /**
  * 
  * @author Heather Kemp
- * the Master/Floor.java class is a mock version of the Floor.java object, created simply to test the Master's ability to
+ * the MockFloor.java class is a mock version of the Floor.java object, created simply to test the Master's ability to
  * cycle through events.
  * It only implements the methods required by the Event interface.
  *
  */
 
-public class Floor implements Event{
+public class MockFloor implements Event{
 
 	/**
 	 * Constructor initializes nothing, as everything is handled in the mock methods.
 	 */
 	
-	public Floor(){
+	public MockFloor(){
 	}
 	
 	/**

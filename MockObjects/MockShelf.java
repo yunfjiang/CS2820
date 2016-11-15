@@ -2,19 +2,19 @@
 /**
  * 
  * @author Heather Kemp
- * the Master/Shelf.java class is a mock version of the Shelf.java object, created simply to test the Master's ability to
+ * the MockShelf.java class is a mock version of the Shelf.java object, created simply to test the Master's ability to
  * cycle through events.
  * It only implements the methods required by the Event interface.
  *
  */
 
-public class Shelf implements Event{
+public class MockShelf implements Event{
 
 	/**
 	 * Constructor initializes nothing, as everything is handled in the mock methods.
 	 */
 	
-	public Shelf(){
+	public MockShelf(){
 		
 	}
 	

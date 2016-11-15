@@ -2,19 +2,19 @@
 /**
  * 
  * @author Heather Kemp
- * the Master/Inventory.java class is a mock version of the Inventory.java object, created simply to test the Master's ability to
+ * the MockInventory.java class is a mock version of the Inventory.java object, created simply to test the Master's ability to
  * cycle through events.
  * It only implements the methods required by the Event interface.
  *
  */
 
-public class Inventory implements Event{
+public class MockInventory implements Event{
 
 	/**
 	 * Constructor initializes nothing, as everything is handled in the mock methods.
 	 */
 	
-	public Inventory(){
+	public MockInventory(){
 	
 	}
 	

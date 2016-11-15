@@ -2,19 +2,19 @@
 /**
  * 
  * @author Heather Kemp
- * the Master/Order.java class is a mock version of the Order.java object, created simply to test the Master's ability to
+ * the MockOrder.java class is a mock version of the Order.java object, created simply to test the Master's ability to
  * cycle through events.
  * It only implements the methods required by the Event interface.
  *
  */
 
-public class Order implements Event{
+public class MockOrder implements Event{
 
     /**
 	 * Constructor initializes nothing, as everything is handled in the mock methods.
 	 */
     
-    public Order(){
+    public MockOrder(){
     
     }
     

@@ -9,7 +9,7 @@ import java.util.PriorityQueue;
 * There can be multiple robots in use at the same time. 
 */
 
-public class Robot implements Event{
+public class Robot implements Event, robotPath{
 	
 	private int robotId;
 	private int robotCharge;
@@ -118,6 +118,11 @@ public class Robot implements Event{
 		else{
 			return robotParameters.remove();
 		}
-		
+	}
+	
+	@Override
+	public Point[] getRoute(Point p1, Point p2) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

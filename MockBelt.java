@@ -32,7 +32,7 @@ public class MockBelt {
     public Point TrackItem(){
     return item;
 }
-    /**
+ /**
  *
  * @author zhaoxinglu
  * @return Point, the coordinate of item

@@ -5,7 +5,7 @@ package production;
  * @author Xinyu Qian
  */
 import java.util.ArrayList;
-public class floor implements viewFloor,robotPath {
+public class Floor implements viewFloor,robotPath {
 	int size = 7;
 	ArrayList<Point> belt = new ArrayList<>();
 	ArrayList<Point> sPoint = new ArrayList<>();
@@ -17,9 +17,10 @@ public class floor implements viewFloor,robotPath {
 	Point shipping;
 	
 	//Initializing the floor
-	public floor(){
+	public Floor(int floorsize){
+		size = floorsize;
 		// initialize the belt location
-		for(int i = 0; i < 8; i++){
+		for(int i = 0; i < size+1; i++){
 			belt.add(new Point(0, i));
 			belt.get(i).belt = true;
 		}

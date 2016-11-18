@@ -80,14 +80,7 @@ public class Master
      *
 	 */
     public void runSimulation()
-    {Belt myBelt = new Belt();
-     Floor myFloor = new Floor();
-     Inventory myInventory = new Inventory();
-     Order myOrder = new Order();
-     Robot myRobot = new Robot(0,0,0);
-     Shelf myShelf = new Shelf();
-     Visualizer myVisualizer = new Visualizer();
-     
+    {
      this.addEvent((Event)myBelt," ");
      this.addEvent((Event)myFloor, " ");
      this.addEvent((Event)myInventory," ");

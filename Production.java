@@ -5,7 +5,6 @@ package production;
  * @author Heather Kemp
  * The Production class is the true 'main' class which contains the Master object and tells it to run with the objects that it has created.
  * It contains only one method, it's static void main(String[] args) method, which will create the needed objects and then run the simulation.
- 
  *
  */
 

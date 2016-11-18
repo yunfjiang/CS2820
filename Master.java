@@ -17,6 +17,13 @@ public class Master
     
     private ArrayList<Event> myEvents;
     private ArrayList<String> myParameters;
+    private Belt myBelt;
+    private Floor myFloor;
+    private Inventory myInventory;
+    private Order myOrder;
+    private RobotScheduler myRobotScheduler;
+    private Shelf myShelf;
+    private Visualizer myVisualizer;
     
 
     /**
@@ -25,6 +32,34 @@ public class Master
     public Master()
     {myEvents = new ArrayList<Event>();
      myParameters = new ArrayList<String>();
+    }
+    
+    public void addBelt(Belt newBelt){
+	    myBelt = newBelt;
+    }
+
+    public void addFloor(Floor newFloor){
+	    myFloor = newFloor;
+    }
+	
+    public void addInventory(Inventory newInventory){
+	    myInventory = newInventory;
+    }
+
+    public void addOrder(Order newOrder){
+	    myOrder = newOrder;
+    }
+
+    public void addRobotScheduler(RobotScheduler newRobot){
+	    myRobotScheduler = newScheduler;
+    }
+	
+    public void addShelf(Shelf newShelf){
+	    myShelf = newShelf;
+    }
+	
+    public void addVisualizer(Visualizer myVisualizer){
+	    myVisualizer = newVisualizer;
     }
     
      /**

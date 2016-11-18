@@ -13,33 +13,4 @@ public class Production
         Master myMaster = new Master();
         myMaster.runSimulation();
     }
-    
-    public void addBelt(Belt newBelt){
-	    myBelt = newBelt;
-    }
-
-    public void addFloor(Floor newFloor){
-	    myFloor = newFloor;
-    }
-	
-    public void addInventory(Inventory newInventory){
-	    myInventory = newInventory;
-    }
-
-    public void addOrder(Order newOrder){
-	    myOrder = newOrder;
-    }
-
-    public void addRobot(Robot newRobot){
-	    myRobot = newRobot;
-    }
-	
-    public void addShelf(Shelf newShelf){
-	    myShelf = newShelf;
-    }
-	
-    public void addVisualizer(Visualizer myVisualizer){
-	    myVisualizer = newVisualizer;
-    }
-
 }

@@ -7,7 +7,7 @@ package production;
 import java.util.ArrayList;
 class Shelf{
 	int items = 0;
-	ArrayList<item> Item = new ArrayList()<>;
+	ArrayList<item> Item = new ArrayList<>();
 	int x, y;
 	public Shelf(Point P){
 		this.x = P.x;
@@ -29,7 +29,7 @@ class Shelf{
 	public String removeItems(item I){
 		Item.remove(Item.indexOf(I));
 		items--;
-		return String.format("Removed item %1$d %s from shelf", I.itemID, I.type);;
+		return String.format("Removed item %1$d %s from shelf", I.itemID, I.type);
 	}
 	
 	// floor will memorize the new location where robot
@@ -38,7 +38,7 @@ class Shelf{
      * 
      * @param P the location where robot drop the shelf
      */
-	public Point reSetLocation(Point P){
+	public void reSetLocation(Point P){
 		this.x = P.x;
 		this.y = P.y;
 		P.shelf = true;

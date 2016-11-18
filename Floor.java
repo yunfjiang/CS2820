@@ -32,23 +32,23 @@ public class Floor implements viewFloor,robotPath {
 		packer = new Point(1,1);
 		packer.packer = true;
 		
-		picker = new Point(1,5);
+		picker = new Point(1,size-2);
 		picker.picker = true;
 		
-		receving = new Point();
+		receving = new Point(size-2, size);
 		receving.receving = true;
 		
-		charger = new Point(2,6);
+		charger = new Point(2,size-1);
 		charger.charger = true;
 		
 		shipping = new Point(0,0);
 		shipping.shipping = true;
 	}
 	
-	public ArrayList getBelt(){
+	public ArrayList<Point> getBelt(){
 		return belt;
 	}
-	public ArrayList getShelf(){
+	public ArrayList<Point> getShelf(){
 		return sPoint;
 	}
 	public Point getPacker(){
@@ -79,7 +79,7 @@ public class Floor implements viewFloor,robotPath {
      * @param p2 end point
      * @return the ArrayList of points from p1 to p2
      */
-	public ArrayList getRoute(Point p1, Point p2){
+	public ArrayList<Point> getRoute(Point p1, Point p2){
         int move = Math.abs(p1.x - p2.x) + Math.abs(p1.y - p2.y);
         for(int i=0; i< move-1;i++){
             if(p1.x - p2.x > 1){

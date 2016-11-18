@@ -1,3 +1,9 @@
+package production;
+/**
+ * 
+ * @author hyo kyung kang
+ *
+ */
 public class Orders {
 	
 	String progress;

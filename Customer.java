@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author hyo kyung kang
+ *
+ */
 public class Customer {
 	String cusname;
 	int ID;

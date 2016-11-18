@@ -21,7 +21,7 @@ public class Master
     private Floor myFloor;
     private Inventory myInventory;
     private Order myOrder;
-    private RobotScheduler myRobotScheduler;
+    private Robot myRobot;
     private Shelf myShelf;
     private Visualizer myVisualizer;
     
@@ -50,8 +50,8 @@ public class Master
 	    myOrder = newOrder;
     }
 
-    public void addRobotScheduler(RobotScheduler newRobot){
-	    myRobotScheduler = newScheduler;
+    public void addRobot(Robot newRobot){
+	    myRobot = newRobot;
     }
 	
     public void addShelf(Shelf newShelf){
